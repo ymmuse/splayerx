@@ -157,7 +157,7 @@ class SharedResponse {
       device: 'PC',
       model: 'PC',
     };
-    this.response.setHeader('Content-Type', 'application/octet-stream');
+    this.response.setHeader('Content-Type', 'application/json');
     this.response.end(JSON.stringify(rspinfo));
   }
 
